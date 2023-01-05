@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    background-color: #020f18;
+}
+
+img{
+    width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+}
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    display: inline-block;
+    margin: auto 25px;
+    width: 70px;
+    height: 60px;
+    
+    font-size: 33px;
+    font-weight: 600;
+    /* font-style: italic; */
+    color: white;
+
+    border-color: #2986c4;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+}
+
+button:hover{
+    font-size: 22px;
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
